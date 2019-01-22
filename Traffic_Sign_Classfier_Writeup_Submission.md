@@ -47,7 +47,7 @@ According to the histogram, in the train data set,  Label 2 has largest number o
 
 For the validation data set, Label 1, 2 and 13 have the largest number of images.
 
-![Validation data histogram][image2]: ./Output_images/hist_validation.png "Histogram_Validation"
+![Validation data histogram]: ./Output_images/hist_validation.png "Histogram_Validation"
 
 For the test data set, similar to the previous data set, namely, Label 1, 2 and 13 have the largest number of images.
 
