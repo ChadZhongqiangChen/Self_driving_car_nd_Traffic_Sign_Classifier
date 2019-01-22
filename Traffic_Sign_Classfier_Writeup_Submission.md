@@ -144,11 +144,11 @@ At the beginning, two dropout layers were implemented in the model, one came aft
 
 Ten German traffic sign images that I found on the web were tested , and here are five of them:
 
-![Speed Limit (30Km/h)](/Output_images/new_test1.png "Speed Limit (30Km/h)")
-![General Caution](/Output_images/new_test4.png "Genral Caution")
-![Traffic Signals](/Output_images/new_test5.png "Traffic Signals")
-![Wild Animals Crossing](/Output_images/new_test6.png "Wild Animals Crossing")
-![Right-of-way at Next Interaction](/Output_images/new_test8.png "Right-of-way at Next Interaction")
+![Speed Limit (30Km/h)][new_test1](/Output_images/new_test1.png "Speed Limit (30Km/h)")
+![General Caution][new_test4](/Output_images/new_test4.png "Genral Caution")
+![Traffic Signals][new_test5](/Output_images/new_test5.png "Traffic Signals")
+![Wild Animals Crossing][new_test6](/Output_images/new_test6.png "Wild Animals Crossing")
+![Right-of-way at Next Interaction][new_test8](/Output_images/new_test8.png "Right-of-way at Next Interaction")
 
 The first and last image might be difficult to classify because the image quality is pretty low. The second image might be difficult to classify because the environment is pretty dark. The third image has color of traffic signals. The fourth and last image might look similar in some instance.
 
