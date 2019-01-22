@@ -47,11 +47,11 @@ According to the histogram, in the train data set,  Label 2 has largest number o
 
 For the validation data set, Label 1, 2 and 13 have the largest number of images.
 
-![Validation data histogram]: ./Output_images/hist_validation.png "Histogram_Validation"
+![Validation data histogram](./Output_images/hist_validation.png "Histogram_Validation")
 
 For the test data set, similar to the previous data set, namely, Label 1, 2 and 13 have the largest number of images.
 
-![Test data histogram][image3]: ./Output_images/hist_test.png "Histogram_Test"
+![Test data histogram](/Output_images/hist_test.png "Histogram_Test")
 
 
 ### Design and Test a Model Architecture
@@ -64,9 +64,9 @@ I only chose to normalize the image, as images with a mean of zero and an equal 
 
 Taking the following two images as an example, they are showing the same information, but they have different lightness. Normalization would help in this case.
 
-![Original Image 1][image4]: ./Output_images/original.png "Original Image 1"
+![Original Image 1](/Output_images/original.png "Original Image 1")
 
-![Original Image 2][image5]: ./Output_images/original2.png "Original Image 2"
+![Original Image 2](/Output_images/original2.png "Original Image 2")
 
 To produce a correct normalization result, input images were first converted to np.float32.
 
@@ -144,11 +144,11 @@ At the beginning, two dropout layers were implemented in the model, one came aft
 
 Ten German traffic sign images that I found on the web were tested , and here are five of them:
 
-![Speed Limit (30Km/h)][image6]: ./Output_images/new_test1.png "Speed Limit (30Km/h)"
-![General Caution][image7]: ./Output_images/new_test4.png "Genral Caution"
-![Traffic Signals][image8]: ./Output_images/new_test5.png "Traffic Signals"
-![Wild Animals Crossing][image9]: ./Output_images/new_test6.png "Wild Animals Crossing"
-![Right-of-way at Next Interaction][image10]: ./Output_images/new_test8.png "Right-of-way at Next Interaction"
+![Speed Limit (30Km/h)](/Output_images/new_test1.png "Speed Limit (30Km/h)")
+![General Caution](/Output_images/new_test4.png "Genral Caution")
+![Traffic Signals](/Output_images/new_test5.png "Traffic Signals")
+![Wild Animals Crossing](/Output_images/new_test6.png "Wild Animals Crossing")
+![Right-of-way at Next Interaction](/Output_images/new_test8.png "Right-of-way at Next Interaction")
 
 The first and last image might be difficult to classify because the image quality is pretty low. The second image might be difficult to classify because the environment is pretty dark. The third image has color of traffic signals. The fourth and last image might look similar in some instance.
 
