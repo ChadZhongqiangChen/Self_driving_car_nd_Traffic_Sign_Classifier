@@ -43,7 +43,7 @@ Here is an exploratory visualization of the train, validation and test data set.
 
 According to the histogram, in the train data set,  Label 2 has largest number of images, followed by Label 1 and Label 13; On the other hand, Label 0, 19 and 37 have the least number of images.
 
-![Train data histogram][image1]: ./Output_images/hist_train.png "Histogram_Train"
+![Train data histogram][image1](./Output_images/hist_train.png "Histogram_Train")
 
 For the validation data set, Label 1, 2 and 13 have the largest number of images.
 
